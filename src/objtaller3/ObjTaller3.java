@@ -1,12 +1,12 @@
 package objtaller3;
 
-import compras.Producto;
+import compras.**;
 import gestionHumana.Empleado;
-import compras.OrdenCompra;
+import **;
 
 public class ObjTaller3 {
 
-    public static void main(String args) {
+    public static void main(** args) {
         Producto p1 = new Producto(1, "Escoba", "Aseo");
         Producto p2 = new Producto(2, "Camisa", "Ropa");
         Producto p3 = new Producto(3, "Trapera", "Aseo");
@@ -20,7 +20,7 @@ public class ObjTaller3 {
         System.out.println(Producto.getTotalProductosPedidos());
         orden1.agregarProducto(p4);
         System.out.println(Producto.getTotalProductosPedidos());
-        orden1.agregarProducto(p5);
+        orden1.**(p5);
         System.out.println(Producto.getTotalProductosPedidos());
         System.out.println("Orden " + orden1.codigo + " creada");
 
